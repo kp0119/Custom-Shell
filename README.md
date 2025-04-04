@@ -40,7 +40,7 @@ A lightweight Unix-style shell built in C with support for command execution, ba
 ## 💻 How to Compile & Run
 
 ```bash
-gcc -o myshell shell.c utils.c
+gcc -o myshell shell.c
 ./myshell
 
 $ pwd
