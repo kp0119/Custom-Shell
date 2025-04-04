@@ -35,5 +35,21 @@ A lightweight Unix-style shell built in C with support for command execution, ba
 
 ---
 
-## 📂 File Structure
+---
+
+## 💻 How to Compile & Run
+
+```bash
+gcc -o myshell shell.c utils.c
+./myshell
+
+$ pwd
+/home/user
+
+$ cd projects
+$ ls > files.txt
+$ cat < files.txt
+
+$ sleep 10 &
+background pid is 12345
 
